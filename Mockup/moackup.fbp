@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="moackup" version="3.0" id="r6LMmmI77y" font="Arial" defaultPage="#pg_8D940" type="default" theme="SimplicityGray">
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_8D940" clasz="com.flairbuilder.project::Page" name="Home" color="255" backgroundColor="16777215">
+    <Component width="914" height="62" x="20" y="25" enabled="true" visible="true" hidden="false" id="fbcnX84f" clasz="com.flairbuilder.components::BrowserChrome" backgroundColor="13421772" pageTitle="Web Page Title" pageAddress="http://www.mecanicaweb.com"/>
+    <Component width="913" height="550" x="20" y="85" enabled="true" visible="true" hidden="false" id="fbci7988" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component name="Accordion1" width="200" height="398" x="32" y="150" enabled="true" visible="true" hidden="false" id="fbcHu54z" clasz="com.flairbuilder.components::Accordion" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="15658734" borderColor="0" borderThickness="1" tabs="Ordenes Trabajo,Vehiculos,Clientes" headerHeight="24" showScrollbar="false">
+      <tabs>
+        <tab></tab>
+        <tab></tab>
+        <tab></tab>
+      </tabs>
+    </Component>
+    <Component width="682" height="398" x="240" y="150" enabled="true" visible="true" hidden="false" id="fbc5pK5s" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="214" height="40" x="249" y="158" enabled="true" visible="true" hidden="false" id="fbcB2681" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Crear Vehiculo&#xD;"/>
+    <Component width="172" height="24" x="331" y="217" enabled="true" visible="true" hidden="false" id="fbccIO6f" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="62" height="18" x="267" y="218" enabled="true" visible="true" hidden="false" id="fbc33aMC" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Placa:"/>
+    <Component width="59" height="18" x="582" y="220" enabled="true" visible="true" hidden="false" id="fbcdl143" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Marca:"/>
+    <Component width="181" height="24" x="657" y="217" enabled="true" visible="true" hidden="false" id="fbc6e7xe" clasz="com.flairbuilder.components::ComboBox" bold="false" italic="false" underline="false" color="0" fontSize="12" borderColor="0">
+      <data encoded="true">Reanault%0DChevrolet%0DMazda</data>
+    </Component>
+    <Component width="62" height="18" x="267" y="283" enabled="true" visible="true" hidden="false" id="fbcfNu28" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Linea:"/>
+    <Component width="172" height="24" x="331" y="279" enabled="true" visible="true" hidden="false" id="fbcHsX39" clasz="com.flairbuilder.components::ComboBox" bold="false" italic="false" underline="false" color="0" fontSize="12" borderColor="0">
+      <data encoded="true">Clio%0DOption%202%0DOption%203</data>
+    </Component>
+    <Component width="65" height="18" x="582" y="282" enabled="true" visible="true" hidden="false" id="fbc5Tf32" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Modelo"/>
+    <Component width="181" height="24" x="657" y="279" enabled="true" visible="true" hidden="false" id="fbc6OZ77" clasz="com.flairbuilder.components::ComboBox" bold="false" italic="false" underline="false" color="0" fontSize="12" borderColor="0">
+      <data encoded="true">2014%0D2013%0D2012</data>
+    </Component>
+    <Component width="44" height="18" x="267" y="345" enabled="true" visible="true" hidden="false" id="fbcHHL5k" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Color:"/>
+    <Component width="172" height="24" x="331" y="343" enabled="true" visible="true" hidden="false" id="fbc2N3AO" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="68" height="18" x="582" y="346" enabled="true" visible="true" hidden="false" id="fbc83N26" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="Kilometraje:"/>
+    <Component width="181" height="24" x="657" y="343" enabled="true" visible="true" hidden="false" id="fbcSI62c" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="92" height="24" x="314" y="454" enabled="true" visible="true" hidden="false" id="fbc78mBI" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Guardar" style="horizontalButton" direction="horizontal"/>
+    <Component width="94" height="24" x="416" y="454" enabled="true" visible="true" hidden="false" id="fbc8x628" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Restablecer" style="horizontalButton" direction="horizontal"/>
+    <Component width="889" height="59" x="32" y="89" enabled="true" visible="true" hidden="false" id="fbcplc28" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="200" height="40" x="416" y="99" enabled="true" visible="true" hidden="false" id="fbc6yp52" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Banner&#xD;"/>
+    <Component width="889" height="74" x="32" y="555" enabled="true" visible="true" hidden="false" id="fbc275l3" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="200" height="40" x="416" y="572" enabled="true" visible="true" hidden="false" id="fbc9j0r1" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Footer&#xD;"/>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_km537" clasz="com.flairbuilder.project::Page" name="Orden de Trabajo" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_797Vd" clasz="com.flairbuilder.project::Page" name="Vehiculos" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_Y83oh" clasz="com.flairbuilder.project::Page" name="Cliente" color="255" backgroundColor="16777215" master="#pg_797Vd">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pg6z88h" clasz="com.flairbuilder.project::Page" name="Crear Orden de Trabajo" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgP428n" clasz="com.flairbuilder.project::Page" name="Buscar Oden de Trabajo" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pglsv2T" clasz="com.flairbuilder.project::Page" name="Crear Vehiculos" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pglDiK8" clasz="com.flairbuilder.project::Page" name="Buscar Vehiculos" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgE63Ao" clasz="com.flairbuilder.project::Page" name="Crear Cliente" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgtOj29" clasz="com.flairbuilder.project::Page" name="Buscar Cliente" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgU2C91" clasz="com.flairbuilder.project::Page" name="Reportes" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pg46m93" clasz="com.flairbuilder.project::Page" name="Reporte Ordenes Trabajo" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pg6Xz5c" clasz="com.flairbuilder.project::Page" name="Reporte Vehiculo" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pg2y094" clasz="com.flairbuilder.project::Page" name="Reporte Cliente" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgh425f" clasz="com.flairbuilder.project::Page" name="Alertas" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="1000" height="1100" enabled="true" visible="true" hidden="false" id="pgH4fA3" clasz="com.flairbuilder.project::Page" name="Activar/Desactivar Alertas" color="255" backgroundColor="16777215">
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Variables/>
+  <CustomComponents embedded="false" list=""/>
+  <Structure name="moackup" siteMap="1" id="r6LMmmI77y">
+    <Page name="Home" id="#pg_8D940" siteMap="1"/>
+    <Page name="Orden de Trabajo" siteMap="1" id="#pg_km537">
+      <Page name="Crear Orden de Trabajo" id="pg6z88h" siteMap="1"/>
+      <Page name="Buscar Oden de Trabajo" id="pgP428n" siteMap="1"/>
+    </Page>
+    <Page name="Vehiculos" siteMap="1" id="#pg_797Vd">
+      <Page name="Crear Vehiculos" id="pglsv2T" siteMap="1"/>
+      <Page name="Buscar Vehiculos" id="pglDiK8" siteMap="1"/>
+    </Page>
+    <Page name="Cliente" siteMap="1" id="#pg_Y83oh">
+      <Page name="Crear Cliente" id="pgE63Ao" siteMap="1"/>
+      <Page name="Buscar Cliente" id="pgtOj29" siteMap="1"/>
+    </Page>
+    <Page name="Alertas" siteMap="1" id="pgh425f">
+      <Page name="Activar/Desactivar Alertas" id="pgH4fA3" siteMap="1"/>
+    </Page>
+    <Page name="Reportes" siteMap="1" id="pgU2C91">
+      <Page name="Reporte Ordenes Trabajo" id="pg46m93" siteMap="1"/>
+      <Page name="Reporte Vehiculo" id="pg6Xz5c" siteMap="1"/>
+      <Page name="Reporte Cliente" id="pg2y094" siteMap="1"/>
+    </Page>
+  </Structure>
+</Project>
